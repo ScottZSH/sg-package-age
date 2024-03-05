@@ -1,11 +1,15 @@
 {
   "name": "sg-package-age",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "A CLI for detecting old dependencies used in your project",
   "type": "module",
   "exports": "./index.js",
   "bin": {
     "package-age": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScottZSH/sg-package-age.git"
   },
   "files": [
     "lib/",
@@ -31,10 +35,6 @@
     "eslint": "^8.47.0",
     "mocha": "^10.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ScottZSH/sg-package-age.git"
-  },
   "keywords": [
     "package",
     "npm",
@@ -46,5 +46,5 @@
     "cli"
   ],
   "author": "ENT8R",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0"
 }
